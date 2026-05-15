@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label>Nome: <input type="text" name="nome"></label><br><br>
+        <label>E-mail: <input type="email" name="email"></label><br><br>
+        <label>Senha: <input type="password" name="senha"></label><br><br>
+        <label>Data: <input type="date" name="data"></label><br><br>
+
+        <label>Curso:
+            <select name="curso">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+            </select>
+        </label><br><br>
+
+        <p>Gênero:</p>
+        <label><input type="radio" name="genero" value="F"> Feminino</label>
+        <label><input type="radio" name="genero" value="M"> Masculino</label><br><br>
+
+        <p>Interesses:</p>
+        <label><input type="checkbox" name="interesse" value="ti"> Tecnologia</label>
+        <label><input type="checkbox" name="interesse" value="esportes"> Esportes</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
